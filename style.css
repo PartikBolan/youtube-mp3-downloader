@@ -74,3 +74,39 @@ body {
     cursor: pointer;
     background-color: blue;
 }
+
+@media only screen and (max-width: 1030px) {
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #download-button {
+        margin-top: 1rem;
+        margin: auto;
+    }
+
+    #user-url {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .main-heading{
+        font-size: 1.2rem;
+    }
+    .main-container {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main-container {
+        width: 70%;
+    }
+
+    .main-heading {
+        font-size: 1rem;
+    }
+}
